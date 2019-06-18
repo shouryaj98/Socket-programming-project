@@ -21,5 +21,7 @@ TCP is a standard protocol which defines how to establish and maintain a network
 
 **Close**: The Unix close system call is used to close a socket.
 
+![alt text](https://github.com/shouryaj98/socket_programming_project/blob/master/TCP_IP_socket_diagram.png?raw=true)
+
 ### How to run
 First make sure the nodes are connected to a LAN either wired or wireless. Find out the IP addresses of the nodes in the LAN which need to communicate with each other. The command “ifconfig” can be used for it. These IP addresses should replace the existing IP addresses used in the client.c file. Compile both the server.c and client.c using a C compiler. Run the generated executables in two separate terminals on each of the node. For server running on each node enter a port value that’s acceptable. Use the menu-driven client program to communicate with other nodes.
